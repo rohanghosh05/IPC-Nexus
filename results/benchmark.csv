@@ -1,0 +1,6 @@
+mechanism,payload_bytes,round_trips,avg_round_trip_us,estimated_one_way_us,throughput_mib_s
+Anonymous pipe,1024,2000,109.742,54.871,17.797
+Named FIFO,1024,2000,79.489,39.745,24.571
+System V message queue,1024,2000,75.307,37.654,25.935
+POSIX shared memory + semaphores,1024,2000,49.005,24.503,39.856
+UNIX domain socketpair,1024,2000,74.938,37.469,26.063
